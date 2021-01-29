@@ -129,7 +129,7 @@ public class UnlockScreenActivity extends AppCompatActivity implements UnlockScr
     public static void dismissIncoming() {
         v.cancel();
         player.stop();
-        fa.finish();
+        // fa.finish();
     }
 
     private void acceptDialing() {
